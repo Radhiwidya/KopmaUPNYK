@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(195, 195, 195);
+    transition: background-color 0.3s, color 0.3s;
+}
+.hidden {
+    display: none;
+}
+.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+.theme-switch {
+    right: 20px;
+    color: white;
+}
+.dark-mode input{
+    background-color: gray;
+    color: white;
+}
+.dark-mode select{
+    background-color: gray;
+    color: white;
+}
